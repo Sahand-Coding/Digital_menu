@@ -52,6 +52,7 @@ main {
   width: 60%;
   text-align: justify;
   font-size: 18px;
+  margin-left: 10px;
 }
 
 .itemcategory {
@@ -87,6 +88,7 @@ main {
 }
 .middle-section {
   width: 50%;
+  display: flex;
 }
 input {
   background-color: #e8bf74;
@@ -105,4 +107,29 @@ input:focus {
 }
 .right-section button img {
   height: 90px;
+}
+
+@media (max-width: 600px) {
+  .middle-section {
+    width: 20%;
+  }
+}
+
+@media (min-width: 601) and (max-width: 800) {
+  .middle-section {
+    width: 40%;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1000px) {
+}
+
+@media (min-width: 1000px) {
+}
+
+.middle-section button {
+  margin-left: -20px;
+  /* background-color: #e8bf74; */
+  border: 0px;
+  /* border-radius: 20px; */
 }
