@@ -132,3 +132,8 @@ input:focus {
   border: 0px;
   border-radius: 20px;
 }
+.buttonnav {
+  background-color: #966f28;
+  width: 98%;
+  border: none;
+}
