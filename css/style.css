@@ -27,7 +27,6 @@ nav {
 main {
   padding-top: 140px;
   padding-left: 140px;
-  height: 2000px;
 }
 
 .itemcoffee {
@@ -121,15 +120,15 @@ input:focus {
   }
 }
 
-@media (min-width: 701px) and (max-width: 1000px) {
-}
-
-@media (min-width: 1000px) {
+@media (min-width: 801px) and (max-width: 1000px) {
+  .left-section {
+    width: 55%;
+  }
 }
 
 .middle-section button {
-  margin-left: -20px;
-  /* background-color: #e8bf74; */
+  margin-left: -35px;
+  background-color: #e8bf74;
   border: 0px;
-  /* border-radius: 20px; */
+  border-radius: 20px;
 }
