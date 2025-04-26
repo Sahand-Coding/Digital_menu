@@ -95,7 +95,7 @@ input {
   border-radius: 20px;
   height: 30px;
   width: 90%;
-  padding: 0px 10px;
+  padding: 0px 15px;
 }
 input:focus {
   border: 1px solid #6a5225;
@@ -127,7 +127,7 @@ input:focus {
 }
 
 .middle-section button {
-  margin-left: -35px;
+  margin-left: -40px;
   background-color: #e8bf74;
   border: 0px;
   border-radius: 20px;
