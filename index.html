@@ -31,48 +31,94 @@
       </div>
 
       <div class="right-section">
-        <button>
-          <img src="./pic/list.png" alt="">
-        </button>
+
+        <div class="dropdown-info">
+          <button>
+            <img src="./pic/list.png" alt="">
+          </button>
+          <div class="dropdown-info-content">
+            <p>About Us</p>
+            <p>Our Address</p>
+            <p>Our Number</p>
+          </div>
+        </div>
+
       </div>
     </header>
     <nav>
-      <button class="buttonnav">
-        <div class="itemcategory">
-          <img src="./pic/coffee-cup.png" alt="coffee">
-          <p>Hot Drinks</p>
-        </div>
-        </button>
-        <button class="buttonnav">
-          <div class="itemcategory">
-            <img src="./pic/cold-drink.png" alt="coffee">
-            <p>Cold Drinks</p>
+      <div class="tooltip">
+        <a href="#hot-drinks">
+          <button class="buttonnav">
+            <div class="itemcategory">
+              <img src="./pic/coffee-cup.png" alt="coffee">
+              <p>Hot Drinks</p>
+            </div>
+            </button>
+        </a>
+          <div class="tooltip-content">
+            <p>Click for more info</p>
           </div>
-        </button>
-        <button class="buttonnav">
-          <div class="itemcategory">
-            <img src="./pic/milk-shake.png" alt="coffee">
+      </div>
+
+      <div class="tooltip2">
+        <a href="#cold-drinks">
+          <button class="buttonnav">
+            <div class="itemcategory">
+              <img src="./pic/cold-drink.png" alt="coffee">
+              <p>Cold Drinks</p>
+            </button>
+          </a>  
+              <div class="tooltip-content2">
+                <p>Click for more info</p>
+              </div>
+            </div>
+      <div class="tooltip3">
+        <a href="#shakes">
+          <button class="buttonnav">
+            <div class="itemcategory">
+              <img src="./pic/milk-shake.png" alt="coffee">
             <p>Shakes</p>
+          </button>
+          </a>
+            <div class="tooltip-content3">
+              <p>Click for more info</p>
+            </div>
           </div>
-        </button>
-        <button class="buttonnav">
-          <div class="itemcategory">
-            <img src="./pic/cupcake.png" alt="coffee">
-            <p>Dessert</p>
+          <div class="tooltip4">
+            <a href="#desserts">
+              <button class="buttonnav">
+                <div class="itemcategory">
+                  <img src="./pic/cupcake.png" alt="coffee">
+                  <p>Desserts</p>
+                </div>
+                
+              </button>
+
+            </a>
+            <div class="tooltip-content4">
+              <p>Click for more info</p>
+            </div>
           </div>
-          
-        </button>
-        <button class="buttonnav">
-          <div class="itemcategory">
-            <img src="./pic/meal.png" alt="coffee">
-            <p>Meals</p>
+          <div class="tooltip5">
+            <a href="#meals">
+
+              <button class="buttonnav">
+                <div class="itemcategory">
+                  <img src="./pic/meal.png" alt="coffee">
+                  <p>Meals</p>
+                </div>
+                </button>
+            </a>
+            <div class="tooltip-content5">
+              <p>Click for more info</p>
+            </div>
           </div>
     </nav>
     <main>
       <div class="itemcoffee">
         <img src="./pic/coffee-cup.png" alt="Coffee" />
         <div class="item-des">
-          <p class="item-name">Latte</p>
+          <p class="item-name" id="hot-drinks" >Latte</p>
           <p class="itemdescription">
             A smooth and creamy blend of rich espresso and steamed milk, topped with a delicate layer of velvety foam. Perfectly balanced and subtly sweet, our latte is a comforting classic that warms your soul with every sip.
           </p>
@@ -106,7 +152,7 @@
         </p>
       </div>
     </div>
-    <div class="itemcoffee">
+    <div id="cold-drinks" class="itemcoffee">
       <img src="./pic/cold-drink.png" alt="Coffee" />
       <div class="item-des">
         <p class="item-name">Citrus Cooler</p>
@@ -152,7 +198,7 @@
       </div>
     </div>
   </div>
-  <div class="itemcoffee">
+  <div id="shakes" class="itemcoffee">
     <img src="./pic/milk-shake.png" alt="" />
     <div class="item-des">
       <p class="item-name">Strawberry Cheesecake Shake</p>
@@ -197,7 +243,7 @@
       Indulgent salted caramel shake topped with whipped cream and caramel drizzle.</p>
   </div>
 </div>
-<div class="itemcoffee">
+<div id="dessets" class="itemcoffee">
   <img src="./pic/cupcake.png" alt="" />
   <div class="item-des">
     <p class="item-name">Classic Tiramisu</p>
@@ -237,7 +283,7 @@
       Silky vanilla custard topped with a caramelized sugar crust that cracks beautifully under a spoon.</p>
   </div>
 </div>
-<div class="itemcoffee">
+<div id="meals" class="itemcoffee">
   <img src="./pic/meal.png" alt="" />
   <div class="item-des">
     <p class="item-name">Grilled Herb-Crusted Chicken</p>
