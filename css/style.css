@@ -104,8 +104,8 @@ input:focus {
   border: 1px solid #6a5225;
 }
 .right-section button {
-  background-color: #966f28;
   border: 0px;
+  /* background-color: #966f28; */
 }
 .right-section button img {
   height: 90px;
@@ -185,6 +185,7 @@ input:focus {
 .dropdown-info-content {
   opacity: 0;
   position: absolute;
+  background-color: #f2cd88;
   top: 90px;
 }
 .dropdown-info:hover .dropdown-info-content {
@@ -193,10 +194,10 @@ input:focus {
   top: 110px;
 }
 .dropdown-info-content p {
-  background-color: #f2cd88;
   text-align: center;
   margin: 0;
   padding: 5px;
+  background-color: #f2cd88;
 }
 .dropdown-info-content p:hover {
   background-color: #f5d9a4;
@@ -247,4 +248,32 @@ input:focus {
   left: 100px;
   opacity: 0.8;
   transition: 0.7s;
+}
+footer {
+  width: 100%;
+  height: 600px;
+  background-color: #7e5a16;
+}
+.p-footer {
+  font-size: 20px;
+  color: white;
+  margin-left: 130px;
+}
+.info-content-div {
+  border: 0px;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.info-content-div p {
+  font-style: normal;
+  margin: 5px 0px;
+  padding: 0px 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.info-content-button {
+  margin: 0px;
+  padding: 0px;
+  background-color: #f2cd88;
 }
