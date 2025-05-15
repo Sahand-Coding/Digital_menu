@@ -105,7 +105,7 @@ input:focus {
 }
 .right-section button {
   border: 0px;
-  /* background-color: #966f28; */
+  background-color: #966f28;
 }
 .right-section button img {
   height: 90px;
@@ -259,6 +259,9 @@ footer {
   color: white;
   margin-left: 130px;
 }
+.p-footer::selection {
+  color: black;
+}
 .info-content-div {
   border: 0px;
   text-align: center;
@@ -275,5 +278,9 @@ footer {
 .info-content-button {
   margin: 0px;
   padding: 0px;
+  background-color: #f2cd88;
+}
+
+.info-content-div button {
   background-color: #f2cd88;
 }
